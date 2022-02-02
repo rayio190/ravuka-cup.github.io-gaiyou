@@ -1,1 +1,1 @@
-# ravuka-cup.github.io-result
+# ravuka-cup.github.io-gaiyou
