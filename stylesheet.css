@@ -29,6 +29,17 @@ li {
   flex: auto;
 }
 
+.thumbnail{
+  display: inline-block;
+  height: 80px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.thumbnail img{
+  height: 500%;
+}
+
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
   .flex-list {
