@@ -1,30 +1,27 @@
 /* タブレット向けレイアウト */
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
     margin-bottom: 50px;
   }
 
-  /* 「.top-wrapper h1」のfont-sizeを32pxに指定 */
-  .top-wrapper h1{
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
     font-size: 32px;
   }
-  
-  /* 「.heading h2」のfont-sizeを20pxに指定 */
-  .heading h2{
+
+  .heading h2 {
     font-size: 20px;
   }
-  
 }
 
 /* スマホ向けレイアウト */
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
   .lesson {
     width: 100%;
-  }
-
-  footer {
-    text-align: center;
   }
 
   .btn {
@@ -34,19 +31,26 @@
   .facebook {
     margin-bottom: 10px;
   }
-
+  
   .top-wrapper {
     text-align: left;
   }
+
+  /* header-rightクラスのdisplayをnoneに指定してください */
+  .header-right{
+    display: none;
+  }
   
-  /* 「.top-wrapper h1」のfont-sizeを24pxに指定 */
-  .top-wrapper h1{
+  /* menu-iconクラスのdisplayをblockに指定してください  */
+  .menu-icon{
+    display: block;
+  }
+  
+  .top-wrapper h1 {
     font-size: 24px;
   }
-  
-  /* 「.top-wrapper p」のfont-sizeを14pxに指定 */
-  .top-wrapper p{
+
+  .top-wrapper p {
     font-size: 14px;
   }
-  
 }
