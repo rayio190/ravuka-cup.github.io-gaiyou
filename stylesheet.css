@@ -52,6 +52,9 @@ li {
   display: inline-block;
 }
 
+body{
+  text-align: center;
+}
 
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
