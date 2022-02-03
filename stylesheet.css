@@ -40,6 +40,12 @@ li {
   height: 500%;
 }
 
+.gazo-box{
+  float:left;
+  padding-right: 20px;
+}
+
+
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
   .flex-list {
