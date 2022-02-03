@@ -34,11 +34,12 @@ li {
   height: 80px;
   margin-right: 15px;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .thumbnail img{
-  height: 500%;
-  text-align: center;
+  height: 50%;
+  display: inline-block;
 }
 
 .gazo-box{
