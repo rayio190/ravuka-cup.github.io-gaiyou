@@ -40,16 +40,6 @@ li {
   height: 500%;
 }
 
-.box{
-  border:10px solid #777;
-  padding: 10px;
-  text-align:center;
-}
-
-.box p2{
-  display: inline-block;
-}
-
 body{
   text-align: center;
 }
